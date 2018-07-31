@@ -1,0 +1,553 @@
+EESchema Schematic File Version 2
+LIBS:LM7805
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:AT89S51-24PU
+LIBS:tinkerforge
+LIBS:votos-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM7805 U1
+U 1 1 58E015A8
+P 4050 1100
+F 0 "U1" H 4250 1700 50  0000 L CNN
+F 1 "LM7805" H 4750 800 50  0000 L CNN
+F 2 "LM7805:TO220" H 4050 1100 50  0001 L CNN
+F 3 "TO-220 Comset Semiconductors" H 4050 1100 50  0001 L CNN
+F 4 "LM7805" H 4050 1100 50  0001 L CNN "MP"
+F 5 "Unavailable" H 4050 1100 50  0001 L CNN "Availability"
+F 6 "0.28 USD" H 4050 1100 50  0001 L CNN "Price"
+F 7 "Comset Semiconductors" H 4050 1100 50  0001 L CNN "MF"
+F 8 "IC Regulator 7805T/LM7805 COMSET RoHS TO220" H 4050 1100 50  0001 L CNN "Description"
+	1    4050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L AT89S51-24PU U2
+U 1 1 58E088D8
+P 4600 3350
+F 0 "U2" H 4405 4847 50  0000 L CNN
+F 1 "AT89S51-24PU" H 4435 1583 50  0000 L CNN
+F 2 "AT89S51-24PU:DIP254P1524X482-40" H 4600 3350 50  0001 L CNN
+F 3 "DIP-40 Atmel" H 4600 3350 50  0001 L CNN
+F 4 "AT89S51-24PU" H 4600 3350 50  0001 L CNN "MP"
+F 5 "Good" H 4600 3350 50  0001 L CNN "Availability"
+F 6 "2.24 USD" H 4600 3350 50  0001 L CNN "Price"
+F 7 "Atmel" H 4600 3350 50  0001 L CNN "MF"
+F 8 "AT89S Series 24 MHz 4 KB Flash 128 B SRAM 8-Bit Microcontroller - DIP-40" H 4600 3350 50  0001 L CNN "Description"
+	1    4600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LCD16X2 DS1
+U 1 1 58E0923E
+P 8100 1800
+F 0 "DS1" H 7300 2200 50  0000 C CNN
+F 1 "LCD16X2" H 8800 2200 50  0000 C CNN
+F 2 "Displays:WC1602A" H 8100 1750 50  0001 C CIN
+F 3 "" H 8100 1800 50  0001 C CNN
+	1    8100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2300 8650 6350
+Wire Wire Line
+	8650 6350 2850 6350
+Wire Wire Line
+	2850 6350 2850 3650
+Wire Wire Line
+	2850 3650 3800 3650
+Wire Wire Line
+	8550 2300 8550 6300
+Wire Wire Line
+	8550 6300 2950 6300
+Wire Wire Line
+	2950 6300 2950 3550
+Wire Wire Line
+	2950 3550 3800 3550
+Wire Wire Line
+	8450 2300 8450 6200
+Wire Wire Line
+	8450 6200 3050 6200
+Wire Wire Line
+	3050 6200 3050 3450
+Wire Wire Line
+	3050 3450 3800 3450
+Wire Wire Line
+	8350 2300 8350 6150
+Wire Wire Line
+	8350 6150 3100 6150
+Wire Wire Line
+	3100 6150 3100 3350
+Wire Wire Line
+	3100 3350 3800 3350
+Wire Wire Line
+	8250 2300 8250 6100
+Wire Wire Line
+	8250 6100 3150 6100
+Wire Wire Line
+	3150 6100 3150 3250
+Wire Wire Line
+	3150 3250 3800 3250
+Wire Wire Line
+	8150 2300 8150 6000
+Wire Wire Line
+	8150 6000 3200 6000
+Wire Wire Line
+	3200 6000 3200 3150
+Wire Wire Line
+	3200 3150 3800 3150
+Wire Wire Line
+	8050 2300 8050 5900
+Wire Wire Line
+	8050 5900 3300 5900
+Wire Wire Line
+	3300 5900 3300 3050
+Wire Wire Line
+	3300 3050 3800 3050
+Wire Wire Line
+	7950 2300 7950 5800
+Wire Wire Line
+	7950 5800 3400 5800
+Wire Wire Line
+	3400 5800 3400 2950
+Wire Wire Line
+	3400 2950 3800 2950
+Wire Wire Line
+	7850 2300 7850 5000
+Wire Wire Line
+	7850 5000 3500 5000
+Wire Wire Line
+	3500 5000 3500 4450
+Wire Wire Line
+	3500 4450 3800 4450
+Wire Wire Line
+	7750 2300 7750 5700
+Wire Wire Line
+	7750 5700 3550 5700
+Wire Wire Line
+	3550 5700 3550 3950
+Wire Wire Line
+	3550 3950 3800 3950
+Wire Wire Line
+	7650 2300 7650 5600
+Wire Wire Line
+	7650 5600 3600 5600
+Wire Wire Line
+	3600 5600 3600 3850
+Wire Wire Line
+	3600 3850 3800 3850
+$Comp
+L TACT-SWITCH START/INIT1
+U 1 1 58E0982C
+P 6300 2700
+F 0 "START/INIT1" H 6450 2810 50  0000 C CNN
+F 1 "TACT-SWITCH" H 6300 2620 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH" H 6300 2700 60  0001 C CNN
+F 3 "" H 6300 2700 60  0000 C CNN
+	1    6300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TACT-SWITCH P1
+U 1 1 58E09896
+P 6300 3100
+F 0 "P1" H 6450 3210 50  0000 C CNN
+F 1 "TACT-SWITCH" H 6300 3020 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH" H 6300 3100 60  0001 C CNN
+F 3 "" H 6300 3100 60  0000 C CNN
+	1    6300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TACT-SWITCH P2
+U 1 1 58E098CF
+P 6300 3450
+F 0 "P2" H 6450 3560 50  0000 C CNN
+F 1 "TACT-SWITCH" H 6300 3370 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH" H 6300 3450 60  0001 C CNN
+F 3 "" H 6300 3450 60  0000 C CNN
+	1    6300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TACT-SWITCH P3
+U 1 1 58E098F6
+P 6300 3750
+F 0 "P3" H 6450 3860 50  0000 C CNN
+F 1 "TACT-SWITCH" H 6300 3670 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH" H 6300 3750 60  0001 C CNN
+F 3 "" H 6300 3750 60  0000 C CNN
+	1    6300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L TACT-SWITCH P4
+U 1 1 58E09921
+P 6300 4050
+F 0 "P4" H 6450 4160 50  0000 C CNN
+F 1 "TACT-SWITCH" H 6300 3970 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH" H 6300 4050 60  0001 C CNN
+F 3 "" H 6300 4050 60  0000 C CNN
+	1    6300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L TACT-SWITCH STOP1
+U 1 1 58E09946
+P 6300 4450
+F 0 "STOP1" H 6450 4560 50  0000 C CNN
+F 1 "TACT-SWITCH" H 6300 4370 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH" H 6300 4450 60  0001 C CNN
+F 3 "" H 6300 4450 60  0000 C CNN
+	1    6300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2700 5500 2700
+Wire Wire Line
+	5500 2700 5500 3250
+Wire Wire Line
+	5500 3250 5400 3250
+Wire Wire Line
+	6000 3100 5600 3100
+Wire Wire Line
+	5600 3100 5600 3350
+Wire Wire Line
+	5600 3350 5400 3350
+Wire Wire Line
+	6000 3450 5400 3450
+Wire Wire Line
+	6000 3750 5850 3750
+Wire Wire Line
+	5850 3750 5850 3550
+Wire Wire Line
+	5850 3550 5400 3550
+Wire Wire Line
+	6000 4050 5800 4050
+Wire Wire Line
+	5800 4050 5800 3650
+Wire Wire Line
+	5800 3650 5400 3650
+Wire Wire Line
+	6000 4450 5600 4450
+Wire Wire Line
+	5600 4450 5600 3750
+Wire Wire Line
+	5600 3750 5400 3750
+Wire Wire Line
+	6600 3100 7000 3100
+Wire Wire Line
+	7000 3100 7000 700 
+Wire Wire Line
+	5150 700  9400 700 
+Wire Wire Line
+	6850 3100 6850 4050
+Wire Wire Line
+	6850 3450 6600 3450
+Connection ~ 6850 3100
+Wire Wire Line
+	6850 3750 6600 3750
+Connection ~ 6850 3450
+Wire Wire Line
+	6850 4050 6600 4050
+Connection ~ 6850 3750
+Wire Wire Line
+	6600 2700 6750 2700
+Wire Wire Line
+	6750 2700 6750 1700
+Wire Wire Line
+	6750 1700 4150 1700
+Wire Wire Line
+	4450 1400 4450 1700
+Wire Wire Line
+	6750 2500 7100 2500
+Wire Wire Line
+	7100 2500 7100 4450
+Wire Wire Line
+	7100 4450 6600 4450
+Connection ~ 6750 2500
+Wire Wire Line
+	7350 2300 6750 2300
+Connection ~ 6750 2300
+Wire Wire Line
+	7450 2300 7450 2400
+Wire Wire Line
+	7450 2400 7000 2400
+Connection ~ 7000 2400
+$Comp
+L POT 10K1
+U 1 1 58E09ED9
+P 6400 1150
+F 0 "10K1" V 6225 1150 50  0000 C CNN
+F 1 "POT" V 6300 1150 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK09K_Horizontal" H 6400 1150 50  0001 C CNN
+F 3 "" H 6400 1150 50  0001 C CNN
+	1    6400 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 700  6400 1000
+Connection ~ 6400 700 
+Wire Wire Line
+	6400 1300 6400 1700
+Connection ~ 6400 1700
+Wire Wire Line
+	7550 2300 7550 2700
+Wire Wire Line
+	7550 2700 7150 2700
+Wire Wire Line
+	7150 2700 7150 1150
+Wire Wire Line
+	7150 1150 6550 1150
+Wire Wire Line
+	3800 4750 3800 5350
+Wire Wire Line
+	3800 5350 4750 5350
+Wire Wire Line
+	4750 5350 4750 1700
+Connection ~ 4750 1700
+Wire Wire Line
+	3800 2150 3800 1500
+Wire Wire Line
+	3800 1500 5700 1500
+Wire Wire Line
+	5700 1500 5700 700 
+Connection ~ 5700 700 
+Wire Wire Line
+	3350 2350 3800 2350
+Wire Wire Line
+	3350 2350 3350 1800
+Wire Wire Line
+	3350 1800 3800 1800
+Connection ~ 3800 1800
+$Comp
+L Crystal 11.592
+U 1 1 58E0A37F
+P 4450 2850
+F 0 "11.592" H 4450 3000 50  0000 C CNN
+F 1 "Crystal" H 4450 2700 50  0000 C CNN
+F 2 "Crystals:Crystal_HC18-U_Vertical" H 4450 2850 50  0001 C CNN
+F 3 "" H 4450 2850 50  0001 C CNN
+	1    4450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2750 3800 2850
+Wire Wire Line
+	3800 2850 4300 2850
+Wire Wire Line
+	4600 2850 4950 2850
+Wire Wire Line
+	4950 2850 4950 2250
+Wire Wire Line
+	4950 2250 5650 2250
+Wire Wire Line
+	5650 2250 5650 2150
+Wire Wire Line
+	5650 2150 5400 2150
+$Comp
+L C 33pF1
+U 1 1 58E0A49D
+P 4250 3100
+F 0 "33pF1" H 4275 3200 50  0000 L CNN
+F 1 "C" H 4275 3000 50  0000 L CNN
+F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 4288 2950 50  0001 C CNN
+F 3 "" H 4250 3100 50  0001 C CNN
+	1    4250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C 33pf1
+U 1 1 58E0A4CA
+P 4600 3100
+F 0 "33pf1" H 4625 3200 50  0000 L CNN
+F 1 "C" H 4625 3000 50  0000 L CNN
+F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 4638 2950 50  0001 C CNN
+F 3 "" H 4600 3100 50  0001 C CNN
+	1    4600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2850 4250 2950
+Connection ~ 4250 2850
+Wire Wire Line
+	4650 2850 4650 2950
+Wire Wire Line
+	4650 2950 4600 2950
+Connection ~ 4650 2850
+Wire Wire Line
+	4250 3250 4750 3250
+Connection ~ 4750 3250
+$Comp
+L C C1
+U 1 1 58E0A7B4
+P 2600 2300
+F 0 "C1" H 2625 2400 50  0000 L CNN
+F 1 "10uF" H 2625 2200 50  0000 L CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 2638 2150 50  0001 C CNN
+F 3 "" H 2600 2300 50  0001 C CNN
+	1    2600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 8.2K1
+U 1 1 58E0A7E5
+P 2600 3050
+F 0 "8.2K1" V 2680 3050 50  0000 C CNN
+F 1 "R" V 2600 3050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 2530 3050 50  0001 C CNN
+F 3 "" H 2600 3050 50  0001 C CNN
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L TACT-SWITCH SW1
+U 1 1 58E0A837
+P 1950 2250
+F 0 "SW1" H 2100 2360 50  0000 C CNN
+F 1 "TACT-SWITCH" H 1950 2170 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH" H 1950 2250 60  0001 C CNN
+F 3 "" H 1950 2250 60  0000 C CNN
+	1    1950 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 2450 2600 2900
+Wire Wire Line
+	1950 1950 1950 1600
+Wire Wire Line
+	1950 1600 3800 1600
+Connection ~ 3800 1600
+Wire Wire Line
+	1950 2550 1950 2650
+Wire Wire Line
+	1950 2650 3800 2650
+Connection ~ 2600 2650
+Wire Wire Line
+	2600 2150 2600 1600
+Connection ~ 2600 1600
+Wire Wire Line
+	2600 3200 2600 3750
+Wire Wire Line
+	2600 3750 4750 3750
+Connection ~ 4750 3750
+$Comp
+L R 560ohm1
+U 1 1 58E0B7B7
+P 8750 2550
+F 0 "560ohm1" V 8830 2550 50  0000 C CNN
+F 1 "R" V 8750 2550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 8680 2550 50  0001 C CNN
+F 3 "" H 8750 2550 50  0001 C CNN
+	1    8750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2300 8750 2400
+Wire Wire Line
+	8750 2700 8750 3250
+Wire Wire Line
+	8750 3250 9400 3250
+Wire Wire Line
+	9400 3250 9400 700 
+Connection ~ 7000 700 
+Wire Wire Line
+	8850 2300 8850 3000
+Wire Wire Line
+	8850 3000 9100 3000
+Wire Wire Line
+	9100 3000 9100 950 
+Wire Wire Line
+	9100 950  6650 950 
+Wire Wire Line
+	6650 950  6650 1700
+Connection ~ 6650 1700
+$Comp
+L CONN_01X02_MALE J1
+U 1 1 58E0BDA5
+P 2200 800
+F 0 "J1" H 2200 975 50  0000 C CNN
+F 1 "CONN_01X02_MALE" H 2200 600 50  0000 C CNN
+F 2 "Diodes_THT:D_T-1_P2.54mm_Vertical_AnodeUp" H 2200 900 50  0001 C CNN
+F 3 "" H 2200 900 50  0001 C CNN
+	1    2200 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 700  3750 700 
+Wire Wire Line
+	2500 900  3350 900 
+Wire Wire Line
+	3350 900  3350 1450
+Wire Wire Line
+	3350 1450 4450 1450
+Connection ~ 4450 1450
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 58E0C96F
+P 2850 600
+F 0 "#FLG01" H 2850 675 50  0001 C CNN
+F 1 "PWR_FLAG" H 2850 750 50  0000 C CNN
+F 2 "" H 2850 600 50  0001 C CNN
+F 3 "" H 2850 600 50  0001 C CNN
+	1    2850 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 58E0C9A7
+P 4150 1700
+F 0 "#FLG02" H 4150 1775 50  0001 C CNN
+F 1 "PWR_FLAG" H 4150 1850 50  0000 C CNN
+F 2 "" H 4150 1700 50  0001 C CNN
+F 3 "" H 4150 1700 50  0001 C CNN
+	1    4150 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4450 1700
+Wire Wire Line
+	2850 600  2850 700 
+Connection ~ 2850 700 
+Connection ~ 4600 3250
+$EndSCHEMATC
